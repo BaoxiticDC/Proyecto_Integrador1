@@ -2,6 +2,10 @@
 
 ## Descripción
 
+Este repositorio hace respuesta al trabajo de procesamiento de imágenes que está en este [link](https://docs.google.com/document/d/17uPzsD2PQmVAoKm4ZYjob9AIDDU_Uum0vs5Z9SrwmeA/edit)
+
+
+
 ## Arquitectura
 
 ## Guia de uso
@@ -24,6 +28,6 @@ Todo el codigo está hecho en python 3.7 donde además se utilizaron las siguien
 - skimage libreria usada para calcular el SSIM
 - collections Librería que tiene una función para contar cuantos elementos de un vector cumplen una condición
 
-## Referencia del trabajo
 
-https://docs.google.com/document/d/17uPzsD2PQmVAoKm4ZYjob9AIDDU_Uum0vs5Z9SrwmeA/edit
+
+

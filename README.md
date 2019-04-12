@@ -17,16 +17,17 @@ Una vez se clona el proyecto se tienen 2 archivos principales.
 
 ## Dependencias
 
-Todo el codigo está hecho en python 3.7 donde además se utilizaron las siguientes librerías
+Todo el código está hecho en python 3.7 donde además se utilizaron las siguientes librerías
 
 
-- cv2 (openCV) Libreria utilizada para tomar fotos y leer imágenes
+- cv2 (openCV) Librería utilizada para tomar fotos y leer imágenes
 - numpy Libreria utilizada para el calculo de varias distancias y el manejo de 	-	- matrices
-- matplotlib.pyplot Libraria base para hacer gráficas
+- matplotlib.pyplot Libreria base para hacer gráficas
 - seaborn  Librería para hacer gráficas estadísticas más estéticas
 - sklearn Libreria importante para calcular la matriz de confusión
 - skimage libreria usada para calcular el SSIM
 - collections Librería que tiene una función para contar cuantos elementos de un vector cumplen una condición
+- pandas: Es usada para poder cargar y guardar las distancias precalculadas para el demo.
 
 
 

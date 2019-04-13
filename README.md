@@ -4,13 +4,19 @@
 
 Este repositorio hace respuesta al trabajo de procesamiento de imágenes que está en este [link](https://docs.google.com/document/d/17uPzsD2PQmVAoKm4ZYjob9AIDDU_Uum0vs5Z9SrwmeA/edit)
 
+En particular lo que se muestra hasta ahora en este trabajo es muy sencillo, en realidad lo que tenemos varias fotos de rostros humanos y un grupo de imágenes que sabemos a priori que son outliers dado que para un humano es claro que no pertenecen a el grupo inicial (No so rostros humanos). Se desarrollaron dos enfoques de comparación:
+
+1. Pertenencia de una nueva imagen: Dada una nueva imagen, esta pertenece al grupo inicial? Es decir, dada una nueva imagen podemos definir si es un rostro?
+2. Identificación de outliers: Podemos identificar cuales son las imágenes que no son rostros dentro de un grupo de imágenes?
+
+
 
 
 ## Arquitectura
 
 Para la solución del problema planteado  es necesario definir un flujo que permita entender cómo se abordó el problema, dicho flujo se ilustra en la siguiente figura
 
-![Flujo](flujo.jpeg)
+![Flujo](flujo.jpeg =50x50)
 
 
 

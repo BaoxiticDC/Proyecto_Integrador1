@@ -9,6 +9,10 @@ En particular lo que se muestra hasta ahora en este trabajo es muy sencillo, en 
 1. Pertenencia de una nueva imagen: Dada una nueva imagen, esta pertenece al grupo inicial? Es decir, dada una nueva imagen podemos definir si es un rostro?
 2. Identificación de outliers: Podemos identificar cuales son las imágenes que no son rostros dentro de un grupo de imágenes?
 
+Dentro de este repositorio hay dos archivos principales (notebooks con los resultados)
+
+1. Entrega1: En este se pueden ver los ejercicios de exploración de las diferentes métricas y los resultados obtenidos.
+2. user_input(Demo): Este es un notebook interactivo donde la persona puede tomarse fotos, escoger la métrica y ver cual es su distancia a la media del dataset que se usó.
 
 
 

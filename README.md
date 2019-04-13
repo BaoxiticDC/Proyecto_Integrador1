@@ -21,7 +21,7 @@ Para la solución del problema planteado  es necesario definir un flujo que perm
 4. almacenar en una estructura de datos.
 
 
-Se define entonces un dataset $$D$$ que puede ilustrarse como una figura tridimensional similar a un prisma de $$NxMxM$$ donde $$N$$ corresponde al número de imágenes procesadas y $M$ corresponde a la dimensión estándar a la que se escala cada imagen. Así, un elemento $$d_{n,i,j} \in D$$ corresponde al pixel en la posición $$i,j$$ de la $$n-$$ésima imagen.
+Se define entonces un dataset D que puede ilustrarse como una figura tridimensional similar a un prisma de NxMxM donde N corresponde al número de imágenes procesadas y M corresponde a la dimensión estándar a la que se escala cada imagen. Así, un elemento d[n,i,j] en D corresponde al pixel en la posición i,j de la n-ésima imagen.
 
 En este orden de ideas, dados una métrica y una imagen referente (Para el caso de este trabajo, se toman la imagen media y mediana del dataset.), se calculan las distancias de cada imagen en el dataset a dicha imagen referente y se reportan los resultados obtenidos en la identificación de outliers en el dataset.
 

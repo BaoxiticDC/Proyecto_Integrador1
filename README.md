@@ -8,7 +8,26 @@ Este repositorio hace respuesta al trabajo de procesamiento de imágenes que est
 
 ## Arquitectura
 
-![alt text](flujo.jpeg)
+Para la solución del problema planteado  es necesario definir un flujo que permita entender cómo se abordó el problema, dicho flujo se ilustra en la siguiente figura
+
+![Flujo](flujo.jpeg)
+
+
+
+
+1. leer la imagen
+2. eliminar los componentes RGB para reexpresar en escala de grises
+3. escalar a una dimensión estándar
+4. almacenar en una estructura de datos.
+
+
+Se define entonces un dataset $D$ que puede ilustrarse como una figura tridimensional similar a un prisma de $NxMxM$ donde $N$ corresponde al número de imágenes procesadas y $M$ corresponde a la dimensión estándar a la que se escala cada imagen. Así, un elemento $d_{n,i,j} \in D$ corresponde al pixel en la posición $i,j$ de la $n-$ésima imagen.
+
+En este orden de ideas, dados una métrica y una imagen referente (Para el caso de este trabajo, se toman la imagen media y mediana del dataset.), se calculan las distancias de cada imagen en el dataset a dicha imagen referente y se reportan los resultados obtenidos en la identificación de outliers en el dataset.
+
+Todo este proceso se desarrolló en Python 3.7 debido a las ventajas que presenta como lenguaje abierto así como la potencia que tiene. Para facilitar la etapa de preparación de las imágenes, se empleó la interfaz de [OpenCV](https://opencv.org/) para Python. 
+
+
 
 ## Guia de uso
 

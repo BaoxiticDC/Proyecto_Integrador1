@@ -8,7 +8,7 @@ Este repositorio hace respuesta al trabajo de procesamiento de imágenes que est
 
 ## Arquitectura
 
-![alt text][flujo.jpeg]
+![alt text](flujo.jpeg)
 
 ## Guia de uso
 

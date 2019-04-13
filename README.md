@@ -8,6 +8,8 @@ Este repositorio hace respuesta al trabajo de procesamiento de imágenes que est
 
 ## Arquitectura
 
+![alt text][flujo.jpeg]
+
 ## Guia de uso
 
 Una vez se clona el proyecto se tienen 2 archivos principales.

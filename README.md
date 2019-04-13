@@ -16,7 +16,7 @@ En particular lo que se muestra hasta ahora en este trabajo es muy sencillo, en 
 
 Para la solución del problema planteado  es necesario definir un flujo que permita entender cómo se abordó el problema, dicho flujo se ilustra en la siguiente figura
 
-![Flujo](flujo.jpeg =50x50)
+![Flujo](flujo.jpeg )
 
 
 
